@@ -56,5 +56,21 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 # VsCode
 sudo snap install --classic code
 
+# Ruby
+sudo apt install ruby
+
+# md viewer
+sudo gem install mdless
+
+# htop
+sudo apt install htop
+
+# mysql
+sudo apt install mysql-client
+
+# mysql client
+sudo snap install mysql-workbench-community
+sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
+
 # Manual steps
 echo "To enable Powerlevel10k zsh theme, edit your ~/.zshrc and set ZSH_THEME=\"powerlevel10k/powerlevel10k\""
