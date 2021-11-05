@@ -72,5 +72,10 @@ sudo apt install mysql-client
 sudo snap install mysql-workbench-community
 sudo snap connect mysql-workbench-community:password-manager-service :password-manager-service
 
+# keepass
+sudo apt-add-repository ppa:jtaylor/keepass
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install keepass2 -y
+
 # Manual steps
 echo "To enable Powerlevel10k zsh theme, edit your ~/.zshrc and set ZSH_THEME=\"powerlevel10k/powerlevel10k\""
