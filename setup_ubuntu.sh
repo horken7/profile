@@ -77,5 +77,21 @@ sudo apt-add-repository ppa:jtaylor/keepass
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install keepass2 -y
 
+# onedrive https://github.com/abraunegg/onedrive/blob/master/docs/INSTALL.md
+sudo apt install build-essential
+sudo apt install libcurl4-openssl-dev
+sudo apt install libsqlite3-dev
+sudo apt install pkg-config
+sudo apt install git
+sudo apt install curl
+curl -fsS https://dlang.org/install.sh | bash -s dmd
+sudo apt install libnotify-dev
+source ~/dlang/dmd-2.098.0/activate
+git clone https://github.com/abraunegg/onedrive.git
+cd onedrive
+./configure
+make clean; make;
+sudo make install
+
 # Manual steps
 echo "To enable Powerlevel10k zsh theme, edit your ~/.zshrc and set ZSH_THEME=\"powerlevel10k/powerlevel10k\""
