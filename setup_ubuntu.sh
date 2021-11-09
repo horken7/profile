@@ -56,6 +56,9 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 # VsCode
 sudo snap install --classic code
 
+# intellij
+sudo snap install intellij-idea-community --classic
+
 # Ruby
 sudo apt install ruby
 
