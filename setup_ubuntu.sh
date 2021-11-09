@@ -41,6 +41,9 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
+# pip
+sudo apt install python3-pip
+
 # zsh https://www.tecmint.com/install-zsh-in-ubuntu/
 sudo apt install zsh
 chsh -s $(which zsh)
