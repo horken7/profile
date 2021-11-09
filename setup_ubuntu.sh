@@ -96,5 +96,8 @@ sudo make install
 # slack
 sudo snap install slack --classic
 
+# s3cmd
+sudo apt install s3cmd
+
 # Manual steps
 echo "To enable Powerlevel10k zsh theme, edit your ~/.zshrc and set ZSH_THEME=\"powerlevel10k/powerlevel10k\""
